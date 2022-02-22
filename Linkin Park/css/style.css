@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: "RockSalt-Regular";
+    src: url("../RockSalt-Regular.ttf");
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.section1 {
+    text-align: center;
+}
+
+.section1 h1 {
+    font-family: "RockSalt-Regular", Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+}
+
+.lp_desc {
+    text-align: justify;
+}
+
+.discografia {
+    padding-bottom: 60px;
+}
+
+.album p {
+    font-size: 0.9em;
+}
+
+.tour-title {
+    font-family: "RockSalt-Regular", Arial, Helvetica, sans-serif;
+}
+
+.concerto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.concerto ul li {
+    display: inline;
+    line-height: 2.5em;
+}
+
+.mes {
+    padding-right: 20px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.card-text {
+    font-size: 0.9em;
+}
+
+.location {
+    padding-right: 18px;
+}
+
+.phone, .email {
+    padding-right: 15px;
+}
