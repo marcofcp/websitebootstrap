@@ -16,31 +16,30 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="50" class="rounded-circle"></a>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="50" class="rounded-circle"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               A BANDA
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">GALERIA</a></li>
-              <li><a class="dropdown-item" href="#">MOMENTOS</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">TESTEMUNHOS</a></li>
+              <li><a class="dropdown-item" href="galeria.html" target="_blank">GALERIA</a></li>
+              <li><a class="dropdown-item" href="momentos.html" target="_blank">MOMENTOS</a></li>
+              <li><a class="dropdown-item" href="testemunhos.html" target="_blank">TESTEMUNHOS</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#" >DISCOGRAFIA</a>
+            <a class="nav-link text-light" href="discografia.html" target="_blank" >DISCOGRAFIA</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="#" >CONTACTO</a>
+            <a class="nav-link text-light" href="contacto.html" target="_blank" >CONTACTO</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -125,40 +124,49 @@
 
     <div class="row bg-black pb-120">
       <div class="col"></div>
-      <div class="p-0  col-lg-6">
+      <div class="p-0  col-lg-6 col-md-12">
         
-        <div class="d-flex justify-content-between">
+        <div class="row">
 
-          <div class="card rounded-0 border-0" style="width: 14rem;">
-            <img src="images/concert_lisboa.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Lisboa</h5>
-              <p class="card-text text-secondary">Coliseu dos Recreios</p>
-              <p>Concerto no Coliseu dos Recreios em Lisboa</p>
-              <a href="#" class="btn btn-dark rounded-0 bg-black">Comprar bilhetes</a>
+          <div class="d-flex justify-content-between">
+            
+            <div class="col-4">
+              <div class="card rounded-0 border-0" style="width: 14rem;">
+                <img src="images/concert_lisboa.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Lisboa</h5>
+                  <p class="card-text text-secondary">Coliseu dos Recreios</p>
+                  <p>Concerto no Coliseu dos Recreios em Lisboa</p>
+                  <a href="#" class="btn btn-dark rounded-0 bg-black">Comprar bilhetes</a>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="card rounded-0 border-0" style="width: 14rem;">
-            <img src="images/concert_porto.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Porto</h5>
-              <p class="card-text text-secondary">Coliseu dos Recreios</p>
-              <p>Concerto no Coliseu dos Recreios no Porto</p>
-              <a href="#" class="btn btn-dark rounded-0 bg-black">Comprar bilhetes</a>
+            <div class="col-4">
+              <div class="card rounded-0 border-0 " style="width: 14rem;">
+                <img src="images/concert_porto.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Porto</h5>
+                  <p class="card-text text-secondary">Coliseu dos Recreios</p>
+                  <p>Concerto no Coliseu dos Recreios no Porto</p>
+                  <a href="#" class="btn btn-dark rounded-0 bg-black">Comprar bilhetes</a>
+                </div>
+              </div>
             </div>
-          </div>
 
-          <div class="card rounded-0 border-0" style="width: 14rem;">
-            <img src="images/concert_coimbra.jpg" class="card-img-top rounded-0" alt="...">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Coimbra</h5>
-              <p class="card-text text-secondary">Estádio Municipal de Coimbra</p>
-              <p>Concerto no Estádio Municipal de Coimbra</p>
-              <a href="#" class="btn btn-dark rounded-0 bg-black">Comprar bilhetes</a>
+            <div class="col-4">
+              <div class="card rounded-0 border-0" style="width: 14rem;">
+                <img src="images/concert_coimbra.jpg" class="card-img-top rounded-0" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-bold">Coimbra</h5>
+                  <p class="card-text text-secondary">Estádio Municipal de Coimbra</p>
+                  <p>Concerto no Estádio Municipal de Coimbra</p>
+                  <a href="#" class="btn btn-dark rounded-0 bg-black">Comprar bilhetes</a>
+                </div>
+              </div>
             </div>
-          </div>
 
+          </div>
         </div>
 
       </div>
@@ -209,11 +217,11 @@
   <div class="container-fluid">
     <div class="row text-center mt-5">
       <div class="redes-sociais mb-3">
-        <a href="" class="link-secondary fs-4 p-1"><i class="fab fa-facebook-f"></i></a>
-        <a href="" class="link-secondary fs-4 p-1"><i class="fab fa-instagram"></i></a>
-        <a href="" class="link-secondary fs-4 p-1"><i class="fab fa-pinterest-p"></i></a>
-        <a href="" class="link-secondary fs-4 p-1"><i class="fab fa-twitter"></i></a>
-        <a href="" class="link-secondary fs-4 p-1"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/linkinpark" class="link-secondary fs-4 p-1" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/linkinpark/" class="link-secondary fs-4 p-1" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.pinterest.pt/" class="link-secondary fs-4 p-1" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+        <a href="https://twitter.com/linkinpark" class="link-secondary fs-4 p-1" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://pt.linkedin.com/" class="link-secondary fs-4 p-1" target="_blank"><i class="fab fa-linkedin-in"></i></a>
       </div>
       <p class="text-secondary">Powered by <span class="fst-italic text-decoration-underline">Marco Pereira</span></p>
     </div>
