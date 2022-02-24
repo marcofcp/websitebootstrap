@@ -11,10 +11,6 @@ body {
     background-color: black;
 }
 
-.dropdown-item:active {
-    background-color: lightgray;
-}
-
 .section1 {
     text-align: center;
 }
@@ -33,7 +29,7 @@ body {
 }
 
 .album p {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 .tour-title {
