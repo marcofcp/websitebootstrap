@@ -11,6 +11,8 @@ body {
     background-color: black;
 }
 
+/* Secção da Descrição e origem da banda */
+
 .section1 {
     text-align: center;
 }
@@ -24,9 +26,13 @@ body {
     text-align: justify;
 }
 
+/* Discografia 3 primeiros álbuns */
+
 .discografia {
     padding-bottom: 60px;
 }
+
+/* Secção Tour da banda, bilheteira e próximos concertos */
 
 .tour-title {
     font-family: "RockSalt-Regular", Arial, Helvetica, sans-serif;
@@ -58,6 +64,8 @@ body {
 .card-text {
     font-size: 0.9em;
 }
+
+/* Secção Contactos da banda com Formulário */
 
 .location {
     padding-right: 18px;
